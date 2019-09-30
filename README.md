@@ -1,7 +1,5 @@
 # Daily Coding Practice
 
----
-
 My Solutions to Daily Coding Problems from <http://www.dailycodingproblem.com>
 
 ***

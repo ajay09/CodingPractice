@@ -17,17 +17,17 @@
 
 #include <iostream>
 #include <vector>
-#include <set>
+#include <unordered_set>
 
 using namespace std;
 
 // single pass solution
 bool twoSums(vector<int>& v, int n) {
-    set<int> v_hash;
+    unordered_set<int> v_hash;
     int second_number;
     for (int a : v) {
         second_number = n - a;
-        auto it = v_hash.find(second_number);
+        auto it = v_hash.find(second_number); /// find in unordered_set is amortised O(1)
         if (it != v_hash.end())
             return true;
         v_hash.insert(a);
@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
     vector<int> v = {10, 15, 3, 7};
     
     cout << twoSums(v, 17) << endl;
-    cout << twoSums(v, 6) << endl;
+    cout << twoSums(v, 6) << endl; /// don't accidently consider the same element twice.
     
     return 0;
 }
