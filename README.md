@@ -10,7 +10,9 @@ Given a list of numbers, return whether any two sums to k. For example, given [1
 
 Bonus: Can you do this in one pass?
 
-[Solution: c++](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions/problem1.cpp "Problem-1 Solution") [Solution: py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem1.py)
+[Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions/problem1.cpp "Problem-1 Solution") [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem1.py)
+
+---
 
 ### Problem 2
 This problem was asked by Uber.
@@ -21,4 +23,4 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
-[Solution: c++](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem2.cpp) [Solution: py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem2.py)
+[Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem2.cpp) [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem2.py)
