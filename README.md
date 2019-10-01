@@ -29,12 +29,15 @@ This problem was asked by Google.
 Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
  
  Example:
-            1
+ 
+
+            1           
            / \
           2   3
              / \
             4   5
- 
+
+
  as "[1,2,3,null,null,4,5]"
 
 [Solution.cpp]() [Solution.py]()
@@ -42,3 +45,10 @@ Design an algorithm to serialize and deserialize a binary tree. There is no rest
 ---
 
 ### Problem 4
+
+
+
+![TREE R "root" N "a node" L "a leaf" L "an other leaf" N "an other node" L "a leaf again !" N "a node again !" L  "OneWord" L "the last leaf"]!
+
+
+
