@@ -26,6 +26,7 @@ Follow-up: what if you can't use division? And in constant space.
 
 ### Problem 3
 This problem was asked by Google.
+
 Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
  
  Example:
@@ -45,10 +46,14 @@ Design an algorithm to serialize and deserialize a binary tree. There is no rest
 ---
 
 ### Problem 4
+This problem was asked by Stripe.
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+ 
+For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
+[Solution.cpp]() [Solution.py]()
 
+---
 
-![TREE R "root" N "a node" L "a leaf" L "an other leaf" N "an other node" L "a leaf again !" N "a node again !" L  "OneWord" L "the last leaf"]!
-
-
+### Problem 5
 
