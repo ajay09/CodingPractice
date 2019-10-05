@@ -57,8 +57,21 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 ---
 
 ### Problem 5
+This problem was asked by Jane Street.
 
-[Solution.cpp]() [Solution.py]()
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+
+```
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+Implement car and cdr.
+
+[Solution.py]()
 
 ---
 
@@ -82,6 +95,26 @@ Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the nu
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
+
+[Solution.cpp]() [Solution.py]()
+
+---
+### Problem 8
+This problem was asked by Google.
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+
+           0
+          / \
+         1   0
+            / \
+           1   0
+          / \
+         1   1
 
 [Solution.cpp]() [Solution.py]()
 
