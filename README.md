@@ -8,7 +8,7 @@ My Solutions to Daily Coding Problems from <http://www.dailycodingproblem.com>
 Given a list of numbers, return whether any two sums to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 
-[Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions/problem1.cpp "Problem-1 Solution") [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem1.py)
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions/problem1.cpp "Problem-1 Solution")  &nbsp; &nbsp; [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem1.py)
 
 ---
 
@@ -20,7 +20,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division? And in constant space.
 
-[Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem2.cpp) [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem2.py)
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem2.cpp)  &nbsp; &nbsp; [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem2.py)
 
 ---
 
@@ -41,7 +41,7 @@ Design an algorithm to serialize and deserialize a binary tree. There is no rest
 
  as "[1,2,3,null,null,4,5]"
 
-[Solution.cpp]() [Solution.py]()
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem3.cpp) &nbsp; &nbsp; [Solution.py]()
 
 ---
 
@@ -52,7 +52,7 @@ Given an array of integers, find the first missing positive integer in linear ti
  
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
-[Solution.cpp]() [Solution.py]()
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem4.cpp)  &nbsp; &nbsp; [Solution.py]()
 
 ---
 
@@ -71,7 +71,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-[Solution.py]()
+ &nbsp; &nbsp; [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem5.py)
 
 ---
 
@@ -84,7 +84,7 @@ Implement an XOR linked list; it has an add(element) which adds the element to t
 
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
-[Solution.cpp]() [Solution.py]()
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem6.cpp)  &nbsp; &nbsp; [Solution.py]()
 
 ---
 
@@ -96,9 +96,10 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution.cpp]() [Solution.py]()
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem7.cpp)  &nbsp; &nbsp; [Solution.py]()
 
 ---
+
 ### Problem 8
 This problem was asked by Google.
 
@@ -116,6 +117,14 @@ For example, the following tree has 5 unival subtrees:
           / \
          1   1
 
-[Solution.cpp]() [Solution.py]()
+ &nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem8.cpp)  &nbsp; &nbsp; [Solution.py]()
 
 ---
+
+### Problem 8
+
+
+
+<!--
+  &nbsp; &nbsp; [Solution.cpp]()  &nbsp; &nbsp; [Solution.py]()
+  -->
