@@ -130,8 +130,16 @@ For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1,
 
 Follow-up: Can you do this in O(N) time and constant space?
 
-&nbsp; &nbsp; [Solution.cpp]()  &nbsp; &nbsp; [Solution.py]()
+&nbsp; &nbsp; [Solution.cpp](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_cpp/problem9.cpp)  &nbsp; &nbsp; [Solution.py]()
 
+---
+
+### Problem 10
+This problem was asked by Apple.
+
+Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+
+&nbsp; &nbsp; [Solution.py]()
 <!--
   &nbsp; &nbsp; [Solution.cpp]()  &nbsp; &nbsp; [Solution.py]()
   -->
