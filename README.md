@@ -139,7 +139,8 @@ This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-&nbsp; &nbsp; [Solution.py]()
+&nbsp; &nbsp; [Solution.py](https://github.com/ajays3/dailyCodingPractice/blob/master/solutions_py/problem_010.py)
+
 <!--
   &nbsp; &nbsp; [Solution.cpp]()  &nbsp; &nbsp; [Solution.py]()
   -->
