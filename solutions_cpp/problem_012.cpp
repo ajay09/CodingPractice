@@ -1,5 +1,5 @@
 //
-//  probem_012.cpp
+//  problem_012.cpp
 //  dailyCodingPractice
 //
 //  Created by Ajay Singh on 09/10/19.
