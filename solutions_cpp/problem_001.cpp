@@ -15,6 +15,8 @@
  Bonus: Can you do this in one pass?
  */
 
+// Similar :  If the list is already sorted then we can do this using two pointers.
+
 #include <iostream>
 #include <vector>
 #include <unordered_set>
@@ -22,24 +24,27 @@
 using namespace std;
 
 // single pass solution
-bool twoSums(vector<int>& v, int n) {
-    unordered_set<int> v_hash;
-    int second_number;
-    for (int a : v) {
-        second_number = n - a;
-        auto it = v_hash.find(second_number); /// find in unordered_set is amortised O(1)
-        if (it != v_hash.end())
+bool twoSums(vector<int>& nums, int sum) {
+    unordered_set<int> numbersSeen; // since we just have to store a hash of values seen hence use unordered set.
+                                    // unordered set is also a hash of just keys.
+    for (int n : nums) {
+        int secondNumber = sum - n;
+        if (numbersSeen.find(secondNumber) != numbersSeen.end())
             return true;
-        v_hash.insert(a);
+        numbersSeen.insert(n);
     }
+    
     return false;
 }
 
-int main(int argc, const char * argv[]) {
+int main() {
     vector<int> v = {10, 15, 3, 7};
     
     cout << twoSums(v, 17) << endl;
-    cout << twoSums(v, 6) << endl; /// don't accidently consider the same element twice.
+    cout << twoSums(v, 6) << endl; // don't accidently consider the same element twice.
+    
+    v = {10, 15 , 3, 7, 3};
+    cout << twoSums(v, 6) << endl;
     
     return 0;
 }

@@ -19,5 +19,6 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 using namespace std;
 
 int main() {
+    vector<vector<pair<int,int>>> vv(5, vector<pair<int,int>>(5,{-1,-1}));
     return 0;
 }
