@@ -43,7 +43,8 @@ using namespace std;
 /// left product => [1, 3, 12] | there is no element left to 3 so take product of elements left to 3 as 1
 /// right product => [20, 5, 1] | there is no element right to 5 so take product of elements left to 5 as 1
 /// result => multiply the respective indices of leftProduct & rightProduct [20, 15, 12]
-vector<int> productExceptSelf(vector<int>& nums) {
+
+ vector<int> productExceptSelf(vector<int>& nums) {
     vector<int> leftProduct(nums.size(), 0), rightProduct(nums.size(), 0), result;
     
     leftProduct[0] = rightProduct[nums.size()-1] = 1;
@@ -61,6 +62,7 @@ vector<int> productExceptSelf(vector<int>& nums) {
 */
 
 // O(n) with Constant Space
+// We will be using the output array as one of L or R and we will be constructing the other one on the fly.
 vector<int> productExceptSelf(vector<int>& nums) {
     vector<int> result(nums.size(), 0);
     int leftProduct;
