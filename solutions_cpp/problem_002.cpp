@@ -64,19 +64,18 @@ using namespace std;
 // O(n) with Constant Space
 // We will be using the output array as one of L or R and we will be constructing the other one on the fly.
 vector<int> productExceptSelf(vector<int>& nums) {
-    vector<int> result(nums.size(), 0);
+    vector<int> result(nums.size(), 0); // result array does not count as extra space
     int leftProduct;
     
-    result[nums.size()-1] = 1;
-    for (int i = int(nums.size()) - 2; i >= 0; --i)
+    result[nums.size()-1] = 1;          // we store the right products in the result array
+    for (int i = int(nums.size()) - 2; i >= 0; --i)//right products is the product of all elements to right of current
         result[i] = result[i+1] * nums[i+1];
     
     leftProduct = 1;
-    for (int i = 0; i < int(nums.size()); ++i) {
-        result[i] = leftProduct * result[i];
+    for (int i = 0; i < int(nums.size()); ++i) { // create the left product on the fly
+        result[i] = leftProduct * result[i];     // result[i] = leftProduct[i] * rightProduct[i]
         leftProduct = leftProduct * nums[i];
     }
-    
     
     return result;
 }

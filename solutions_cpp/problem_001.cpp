@@ -29,8 +29,8 @@ bool twoSums(vector<int>& nums, int sum) {
                                     // unordered set is also a hash of just keys.
     for (int n : nums) {
         int secondNumber = sum - n;
-        if (numbersSeen.find(secondNumber) != numbersSeen.end())
-            return true;
+        if (numbersSeen.find(secondNumber) != numbersSeen.end()) // for the current number check if its complementary
+            return true;                                        //  has been appeared in the numbers seen till now ?
         numbersSeen.insert(n);
     }
     
