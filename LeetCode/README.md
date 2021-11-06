@@ -9,5 +9,3 @@
 
 
 
-
-https://github.com/ajay09/CodingPractice/blob/master/LeetCode/Problems/0014_LongestCommonPrefix.md
